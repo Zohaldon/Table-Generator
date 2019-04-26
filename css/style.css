@@ -1,0 +1,153 @@
+/*Parth Chandgadhiya 300986134*/
+body
+{
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  margin-top: 10px;
+}
+#htmlDiv
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+  width:auto;
+  background-color: #2d3436;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #00ff00;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*table css*/
+table
+{
+  width: 100%;
+}
+th,td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even)
+{
+  color:white;
+}
+tr:nth-child(odd)
+{
+  color:red;
+}
+table,th,td{
+  border: 1px solid white;
+}
+/*end of table css*/
+#tableDiv
+{
+  overflow-x: auto;
+  margin-top: 10px;
+  background-color: #222f3e;
+}
+/*start of button*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #eb2f06;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*ENd of button*/
+/*ccs for horizontal line*/
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+/*End of ccs for hr*/
+
+/*number css*/
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align:center;
+  font-size: 1em;
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
+
+input[type=number]:focus {
+  border: 3px solid #fff200;
+  border-width: 0.5em;
+  border-radius: 1em;
+}
+/*End of number css*/
+p {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title {
+  font-size: 50px;
+}
+tr:hover {
+  background-color: #FFC312;
+}
+td:hover{
+  background-color: #6F1E51;
+}
