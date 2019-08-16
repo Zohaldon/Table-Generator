@@ -7,4 +7,4 @@ JavaScript project that can create table on any given web page based upon number
 <img src="screenshot/1.PNG" /><br/>
 
 ## Table 
-<img src="screenshot/2.PNG" /><br/>
+<img src="screenshot/2.png" /><br/>
